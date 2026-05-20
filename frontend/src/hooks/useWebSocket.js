@@ -4,7 +4,7 @@
  */
 import { useState, useEffect, useRef, useCallback } from 'react';
 
-const WS_URL = 'ws://127.0.0.1:8000/ws';
+const WS_URL = 'wss://proctored-exam-m0km.onrender.com/ws';
 const RECONNECT_DELAY = 3000;
 const MAX_RECONNECT = 10;
 

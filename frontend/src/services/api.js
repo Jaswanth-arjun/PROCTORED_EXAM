@@ -1,7 +1,7 @@
 /**
  * API service — REST calls to the FastAPI backend.
  */
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://proctored-exam-m0km.onrender.com/api';
 
 export async function analyzeImage(imageBase64, source = 'upload') {
   const res = await fetch(`${API_BASE}/analyze`, {
